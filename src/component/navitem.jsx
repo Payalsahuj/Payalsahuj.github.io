@@ -99,6 +99,7 @@ export default function WithSubnavigation() {
                                 bgColor: color,
                                 animation: `2.00s ${pulseRing} cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite`,
                             }}>
+                                
                             <Avatar
                                 src={data?pdark:plight}
                                 size="full"
