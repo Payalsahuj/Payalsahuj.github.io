@@ -1,7 +1,16 @@
-
+import { useSelector } from 'react-redux';
+import ugh from '../image/uhg.jpg'
 function Project(){
+    const data=useSelector((store)=> store.theme)
     return (
-        <div id='projects'>
+        <div style={{position:'absolute',
+        zIndex:'0',
+        padding:'0px 10px',
+        backgroundImage:data?'':`url(${ugh})`,
+        width:'100%',
+        height:'300vh'
+        }}  id='projects'>
+            <h1>project</h1>
 
         </div>
     )

@@ -1,8 +1,6 @@
-
+import "../CSS/navitem.css"
 import { Avatar, Box, Flex, keyframes } from '@chakra-ui/react';
 import {
-
-    Text,
     IconButton,
     // Button,
     Stack,
@@ -14,6 +12,7 @@ import {
     HamburgerIcon,
     CloseIcon,
 } from '@chakra-ui/icons';
+import {Link} from 'react-router-dom'
 
 import plight from "../image/plight.png"
 import pdark from "../image/pdark.png"
@@ -23,7 +22,6 @@ import { handeltheme } from '../redux/action';
 export default function WithSubnavigation() {
     const data=useSelector((store)=> store.theme)
     const dispatch=useDispatch()
-    console.log(data)
     const { isOpen, onToggle } = useDisclosure();
     const size = '50px';
     
@@ -56,12 +54,12 @@ export default function WithSubnavigation() {
                 px={{ base: 4 }}
                 borderBottom={1}
                 borderStyle={'solid'}
-                borderColor={useColorModeValue('gray.200', 'gray.900')}
+                // borderColor={useColorModeValue('gray.200', 'gray.900')}
                 align={'center'}>
                 <Flex
                     flex={{ base: 1, md: 'auto' }}
                     ml={{ base: -2 }}
-                    display={{ base: 'flex', sm: 'none', md: 'none' }}>
+                    display={{ base: 'flex', sm: 'flex', md: 'none' }}>
                     <IconButton
                         onClick={onToggle}
                         icon={
@@ -77,7 +75,7 @@ export default function WithSubnavigation() {
 
 
                     <Flex
-                        display={{ base: 'none', sm: 'flex', md: 'flex' }}
+                        display={{ base: 'none', sm: 'none', md: 'flex' }}
                         w="full"
                         overflow="hidden">
                         {/* Ideally, only the box should be used. The <Flex /> is used to style the preview. */}
@@ -115,60 +113,32 @@ export default function WithSubnavigation() {
 
 
 
-                    <Flex display={{ base: 'none', sm: 'flex', md: 'flex' }} mr={5} alignItems={'center'}>
+                    <Flex display={{ base: 'none', sm: 'none', md: 'flex' }} mr={5} alignItems={'center'}>
                         <DesktopNav />
                     </Flex>
                 </Flex>
-
-                {/* <Stack
-            flex={{ base: 1, md: 0 }}
-            justify={'flex-end'}
-            direction={'row'}
-            spacing={6}>
-            <Button
-              as={'a'}
-              fontSize={'sm'}
-              fontWeight={400}
-              variant={'link'}
-              href={'#'}>
-              Sign In
-            </Button>
-            <Button
-              as={'a'}
-              display={{ base: 'none', md: 'inline-flex' }}
-              fontSize={'sm'}
-              fontWeight={600}
-              color={'white'}
-              bg={'pink.400'}
-              href={'#'}
-              _hover={{
-                bg: 'pink.300',
-              }}>
-              Sign Up
-            </Button>
-          </Stack> */}
             </Flex>
 
-            {/* <Collapse in={isOpen} animateOpacity>
-                <MobileNav />
-            </Collapse> */}
+          
         </Box>
     );
 }
 
 const DesktopNav = () => {
     const data=useSelector((store)=> store.theme)
- 
     return (
         <Stack direction={'row'} spacing={4}>
             {NAV_ITEMS.map((navItem) => (
-                <Box key={navItem.label}>
-                    {navItem.label==="Resume"?<button style={{border:data?'1px solid green':'1px solid white',borderRadius:'10px',padding:'3px 10px', color:data?'black':'white'}}>Resume</button>:
-                    <Text _hover={{cursor:'pointer'}} color={data?'black':'white'} fontSize='18px' paddingLeft='10px'>
+                <Link  key={navItem.label} to={navItem.link}>
+                <Box>
+                    {navItem.label==="Resume"?
+                    <button className={`resumebutton ${navItem.class}`} style={{border:data?'1px solid green':'1px solid white', color:data?'black':'white'}}>Resume</button>:
+                    <p className={`navitem ${navItem.class}`}  style={{color:data?'black':'white'}} >
                     {navItem.label}
-                    </Text>}
+                    </p>}
                     
                 </Box>
+                </Link>
             ))}
         </Stack>
     );
@@ -177,27 +147,42 @@ const DesktopNav = () => {
 
 const NAV_ITEMS = [
     {
-        label: 'About',
+        label: 'Home',
+        class:"nav-link home",
+        link:'/'
       
+    },
+    {
+        label: 'About',
+        class:"nav-link about",
+        link:'/about'
     },
     {
         label: 'Skills',
-     
-    },
-    {
-        label: 'Projects',
+        class:"nav-link skills",
+        link:'/skills'
       
     },
     {
-        label: 'Statistics',
+        label:'Statistics',
+        class:'nav-link statistics',
+        link:'/statistics'
+    },
+    {
+        label: 'Projects',
+        class:"nav-link projects",
+        link:'/project'
        
     },
     {
         label: 'Contact',
+        class:"nav-link contact",
+        link:'/contact'
        
     },
     {
         label: 'Resume',
-        
+        class:"nav-link resume",
+        link:'/resume'
     },
 ];

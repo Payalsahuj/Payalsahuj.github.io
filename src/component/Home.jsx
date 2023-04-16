@@ -10,8 +10,8 @@ function Home(){
         width:'100%',
         height:'300vh'
         }} id="home" >
-            <div>
-            <h1>okok</h1>
+            <div style={{marginTop:'100px',color:data?'black':'white'}}>
+            <h1>Ipsam voluptatibus possimus ad, eos sapiente animi. Tempora, voluptatem? Amet voluptatem itaque dolore minima?</h1>
             </div>
             
         </div>
