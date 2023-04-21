@@ -10,10 +10,12 @@ import Contact from './component/Contact';
 import Resume from './component/resume.';
 import { useSelector } from 'react-redux';
 import ugh from './image/uhg.jpg'
+import { Location } from './component/location';
 function App() {
   const data=useSelector((store)=> store.theme)
   return (
     <div className="App" >
+   
       <div  ><Navbar /></div>
 
       <div style={{fontFamily:'cursive',position:'absolute',backgroundImage:data?'':`url(${ugh})`,color:data?'black':'white'}}>

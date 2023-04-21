@@ -7,9 +7,8 @@ function Allroutes(){
         <div>
             <Routes>
           
-                <Route path='/location' element={<Location/>}/>
+                {/* <Route path='/location' element={<Location/>}/> */}
                 <Route path='*' element={<PageNotFound/>}/>
-z
             </Routes>
         </div>
     )

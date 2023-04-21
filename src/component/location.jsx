@@ -1,6 +1,5 @@
 
-
- export function Location(){
+function Location(){
     return <div>
          <center>
         <h1>
@@ -18,4 +17,6 @@
     </div>
 }
 
+
+export default Location
 
