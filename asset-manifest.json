@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.274868d1.css",
-    "main.js": "/static/js/main.d0163cc4.js",
+    "main.css": "/static/css/main.6493abf2.css",
+    "main.js": "/static/js/main.ad130690.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/SUGARcc.png": "/static/media/SUGARcc.7d167731366ca253fed3.png",
+    "static/media/CATHERc.png": "/static/media/CATHERc.6fbadd6e6980d1a893f2.png",
     "static/media/imresizer-1680623388621.jpg": "/static/media/imresizer-1680623388621.6536816eaec02926a98e.jpg",
+    "static/media/IKEAc.png": "/static/media/IKEAc.739e1cfaf59aaf510414.png",
     "static/media/express.png": "/static/media/express.44e99be40ced53a02362.png",
     "static/media/react.jpeg": "/static/media/react.bb15f26ee8c99e5e7e7d.jpeg",
     "static/media/typescript-1174965.png": "/static/media/typescript-1174965.8fe41361dff57e3f6c2e.png",
@@ -11,12 +14,12 @@
     "static/media/page-not-found-1011853308-jpg": "/static/media/page-not-found-1011853308-5b8f17d146e0fb005045416c.2bd3c70bce49e6b8ac34.jpg",
     "static/media/npm.png": "/static/media/npm.5904c46fdce9a3192c3b.png",
     "index.html": "/index.html",
-    "main.274868d1.css.map": "/static/css/main.274868d1.css.map",
-    "main.d0163cc4.js.map": "/static/js/main.d0163cc4.js.map",
+    "main.6493abf2.css.map": "/static/css/main.6493abf2.css.map",
+    "main.ad130690.js.map": "/static/js/main.ad130690.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.274868d1.css",
-    "static/js/main.d0163cc4.js"
+    "static/css/main.6493abf2.css",
+    "static/js/main.ad130690.js"
   ]
 }
