@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.6493abf2.css",
-    "main.js": "/static/js/main.c4be3284.js",
+    "main.js": "/static/js/main.cb855edb.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/SUGARcc.png": "/static/media/SUGARcc.7d167731366ca253fed3.png",
     "static/media/CATHERc.png": "/static/media/CATHERc.6fbadd6e6980d1a893f2.png",
     "static/media/imresizer-1680623388621.jpg": "/static/media/imresizer-1680623388621.6536816eaec02926a98e.jpg",
     "static/media/IKEAc.png": "/static/media/IKEAc.739e1cfaf59aaf510414.png",
+    "static/media/Payal-Sahu-Resume.pdf": "/static/media/Payal-Sahu-Resume.693e4854366c17f4b3df.pdf",
     "static/media/express.png": "/static/media/express.44e99be40ced53a02362.png",
     "static/media/react.jpeg": "/static/media/react.bb15f26ee8c99e5e7e7d.jpeg",
     "static/media/typescript-1174965.png": "/static/media/typescript-1174965.8fe41361dff57e3f6c2e.png",
@@ -15,11 +16,11 @@
     "static/media/npm.png": "/static/media/npm.5904c46fdce9a3192c3b.png",
     "index.html": "/index.html",
     "main.6493abf2.css.map": "/static/css/main.6493abf2.css.map",
-    "main.c4be3284.js.map": "/static/js/main.c4be3284.js.map",
+    "main.cb855edb.js.map": "/static/js/main.cb855edb.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6493abf2.css",
-    "static/js/main.c4be3284.js"
+    "static/js/main.cb855edb.js"
   ]
 }
