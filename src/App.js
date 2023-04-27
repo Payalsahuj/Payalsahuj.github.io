@@ -1,6 +1,6 @@
 import Navbar from './component/Navbar'
 import './App.css';
-import Allroutes from "./Routes/allroutes";
+
 import Home from './component/home';
 import About from './component/About';
 import Skills from './component/Skills';
@@ -10,7 +10,7 @@ import Contact from './component/Contact';
 import Resume from './component/resume.';
 import { useSelector } from 'react-redux';
 import ugh from './image/uhg.jpg'
-import { Location } from './component/location';
+
 function App() {
   const data=useSelector((store)=> store.theme)
   return (

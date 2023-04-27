@@ -13,6 +13,7 @@ import {
     HamburgerIcon,
     CloseIcon,
 } from '@chakra-ui/icons';
+import resume from "../image/Payal-Sahu-Resume.pdf"
 // import {Link} from 'react-router-dom'
 
 import plight from "../image/plight.png"
@@ -141,9 +142,9 @@ const DesktopNav = () => {
               <AnchorLink className={`navitem nav-link contact`} style={{color:data?'black':'white',fontFamily:'cursive',marginRight:'10px'}} href='#contact'>
                 <Text>Contact</Text>
               </AnchorLink>
-              <AnchorLink className="resumebutton nav-link resume" style={{color:data?'black':'white',fontFamily:'cursive',marginRight:'10px'}} href="#resume">
-                <Button colorScheme={data?'black':'white'}  variant='outline' size='md'>Resume</Button>
-              </AnchorLink>
+              <a id="resume-link-1"  className="resumebutton nav-link resume" style={{color:data?'black':'white',fontFamily:'cursive',marginRight:'10px'}} href={resume} download={"Payal-Sahu-Resume"}>
+              <button id="resume-button-1" style={{color:data?'black':'white',border:'1px solid white',padding:'5px 10px',borderRadius:'10px'}}  onClick={()=>window.open("https://drive.google.com/file/d/1ZupJ5-dd3WKtb_hd8kvAr4if9syB5Kyc/view?usp=sharing")} >Resume</button>
+              </a>
         </Stack> 
     );
 };

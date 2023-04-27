@@ -16,10 +16,14 @@ import typescript from "../image/typescript-1174965.png"
 import npm from "../image/npm.png"
 import dsa from "../image/dsa.jpeg"
 import cypress from "../image/cypress.jpeg"
-import vs from "../image/vscode.jpeg"
+import vs from "../image/vscode.png"
 import github from "../image/icons8-github-64 (1).png"
-import chakra from "../image/chakra.jpeg"
-import git from "../image/git.jpeg"
+import chakra from "../image/chakra.png"
+import git from "../image/git.png"
+import boot from "../image/icons8-bootstrap-48.png"
+import netlify from "../image/netlify.png"
+import vercel from "../image/icons8-triangle-50.png"
+import codesand from '../image/codesand.png'
 import '../App.css';
 import lightset from "../image/lightsetting.png"
 import winter from "../image/icons8-winter-48.png"
@@ -65,11 +69,16 @@ function Skills(){
         { img: dsa, name: "DSA" },
       ];
       const toolsarr = [
-        { img: vs, name: "VS Code" },
         { img: github, name: "Github" },
-    
-        { img: chakra, name: "Chakra UI" },
         { img: git, name: "Git" },
+        { img: vs, name: "VS Code" },
+        {img:codesand,name:'CodeSandbox'},
+        { img: chakra, name: "Chakra UI" },
+        {img:boot,name:'Bootstrap'},
+        {img:netlify,name:'Netlify'},
+        {img:vercel,name:'Vercel'}
+
+
       ];
 
     return (<div style={{
@@ -80,7 +89,7 @@ function Skills(){
         <div   data-aos="zoom-in-down"
         data-aos-duration="2000"
         data-aos-offset="100" style={{marginBottom:'50px'}} >
-        <button style={{backgroundColor:'#4b8118',padding:'3px 19px',borderRadius:'15px'}}><h1 style={{fontSize:'37px',color:'white'}} >Technical and Soft Skills</h1></button>
+        <button id='heading'><h1  >Technical and Soft Skills</h1></button>
         </div>
 
       <Flex
@@ -122,7 +131,7 @@ function Skills(){
       <div className="App"   data-aos="zoom-in-down"
         data-aos-duration="2000"
         data-aos-offset="100"
-         style={{marginTop:'70px',marginBottom:'100px'}}>
+         style={{marginTop:'70px',marginBottom:'90px'}}>
       <header className="App-header">
         <img src={winter} className="App-logo" alt="logo" />
         <img src={data?lightset:set}  className="App-logo2" alt="" />
@@ -137,33 +146,35 @@ function Skills(){
         data-aos-easing="ease-out-cubic"
         data-aos-duration="3000"
         data-aos-offset="100"
-        id="skillsdiv"
-      >
+        id="skillsdiv">
         {tech === "allimg"
           ? skillsarr.map((el) => (
-              <div className='setdiv'>
-                <img className='set' alt="" src={el.img} />
-                <h3>{el.name}</h3>
+              <div className='setdiv skills-card'>
+                <img className='set skills-card-img' alt="" src={el.img} />
+                <h3 className='skills-card-name'>{el.name}</h3>
               </div>
             ))
           : null}
         {tech === "frontend"
           ? frontend.map((el) => (
-              <div className='setdiv'>
-                <img className='set' alt="" src={el.img} />
-                <h3>{el.name}</h3>
+              <div className='setdiv skills-card'>
+                <img className='set skills-card-img' alt="" src={el.img} />
+                <h3 className='skills-card-name'>{el.name}</h3>
               </div>
             ))
           : null}
         {tech === "backend"
           ? backend.map((el) => (
-              <div className='setdiv'>
-                <img className='set' alt="" src={el.img} />
-                <h3>{el.name}</h3>
+              <div className='setdiv skills-card'>
+                <img className='set skills-card-img' alt="" src={el.img} />
+                <h3 className='skills-card-name'>{el.name}</h3>
               </div>
             ))
           : null}
       </div>:null}
+
+
+
       {tech==="backend"?<div
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
@@ -173,29 +184,32 @@ function Skills(){
       >
         {tech === "allimg"
           ? skillsarr.map((el) => (
-              <div className='setdiv'>
-                <img className='set' alt="" src={el.img} />
-                <h3>{el.name}</h3>
+              <div className='setdiv skills-card'>
+                <img className='set skills-card-img' alt="" src={el.img} />
+                <h3 className='skills-card-name'>{el.name}</h3>
               </div>
             ))
           : null}
         {tech === "frontend"
           ? frontend.map((el) => (
-              <div className='setdiv'>
-                <img className='set' alt="" src={el.img} />
-                <h3>{el.name}</h3>
+              <div className='setdiv skills-card'>
+                <img className='set skills-card-img' alt="" src={el.img} />
+                <h3 className='skills-card-name'>{el.name}</h3>
               </div>
             ))
           : null}
         {tech === "backend"
           ? backend.map((el) => (
-            <div className='setdiv'>
-                <img className='set' alt="" src={el.img} />
-                <h3>{el.name}</h3>
+            <div className='setdiv skills-card'>
+                <img className='set skills-card-img' alt="" src={el.img} />
+                <h3 className='skills-card-name'>{el.name}</h3>
               </div>
             ))
           : null}
       </div>:null}
+
+
+
       {tech==="frontend"?<div
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
@@ -205,39 +219,42 @@ function Skills(){
       >
         {tech === "allimg"
           ? skillsarr.map((el) => (
-              <div className='setdiv'>
-                <img className='set' alt="" src={el.img} />
-                <h3>{el.name}</h3>
+              <div className='setdiv skills-card'>
+                <img className='set skills-card-img' alt="" src={el.img} />
+                <h3 className='skills-card-name'>{el.name}</h3>
               </div>
             ))
           : null}
         {tech === "frontend"
           ? frontend.map((el) => (
-              <div className='setdiv'>
-                <img className='set' alt="" src={el.img} />
-                <h3>{el.name}</h3>
+              <div className='setdiv skills-card'>
+                <img className='set skills-card-img' alt="" src={el.img} />
+                <h3 className='skills-card-name'>{el.name}</h3>
               </div>
             ))
           : null}
         {tech === "backend"
           ? backend.map((el) => (
-              <div className='setdiv'>
-                <img className='set' alt="" src={el.img} />
-                <h3>{el.name}</h3>
+              <div className='setdiv skills-card'>
+                <img className='set skills-card-img' alt="" src={el.img} />
+                <h3 className='skills-card-name'>{el.name}</h3>
               </div>
             ))
           : null}
       </div>:null}
+
+
+      
       <Flex
         id="Tools"
-        data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
+        data-aos="zoom-in-down"
+        data-aos-duration="1000"
         data-aos-offset="100"
         margin={"auto"}
+        paddingTop={'60px'}
         justifyContent={"space-around"}
       >
-        <h1 style={{ color: "var(--color-font)" }}>Tools </h1>
+        <h1 style={{ color: "white" ,fontFamily:'serif' ,fontSize:'47px'}}>Tools </h1>
       </Flex>
       <div id="skillsdiv">
         {toolsarr.map((el) => (
@@ -245,10 +262,10 @@ function Skills(){
             data-aos="zoom-in-down"
             data-aos-duration="2000"
             data-aos-offset="100"
-            className='setdiv'
+            className='setdiv skills-card'
           >
-            <img className='set' alt="" src={el.img} />
-            <h3>{el.name}</h3>
+            <img className='set skills-card-img' alt="" src={el.img} />
+            <h3 className='skills-card-name'>{el.name}</h3>
           </div>
         ))}
       </div>

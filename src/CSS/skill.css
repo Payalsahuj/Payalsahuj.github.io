@@ -1,3 +1,14 @@
+#heading{
+  background-color: #4b8118;
+  padding: 3px 19px;
+  border-radius: 15px;
+
+}
+#heading h1{
+  font-size: 39px;
+  font-family: serif;
+  color: white;
+}
 #tech {
     margin: auto;
     border-radius: 15px;
@@ -37,6 +48,7 @@
       width: 71%;
   
     }
+
     
   
     #Tools {
@@ -102,9 +114,7 @@
    margin: auto;
    margin-bottom: 10px;
   }
-  .setdiv:hover{
-    transform: scale(1.2); 
-  }
+
   
   #skillsButton button:hover{
     transform: scale(1.2);

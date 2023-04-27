@@ -1,0 +1,26 @@
+#about{
+        padding: 200px 10px;
+        height: 90vh;
+        display:flex;
+        justify-content: space-around;
+} 
+#aboutme{
+    font-size:29px;
+    font-family:serif;
+    background-color: #4b8118;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 45px;
+}
+.paragraph{
+    font-family: cursive;
+    font-size: 24px;
+}
+.home-img{
+    border-radius:50% ;
+    height: 350px;
+    width: 320px;
+    margin: auto;
+    box-shadow: #4b8118 0px 0px 0px 15px;
+}

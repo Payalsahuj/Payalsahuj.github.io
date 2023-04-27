@@ -6,9 +6,9 @@ function Resume(){
         <div style={{
         padding:'0px 10px',
         width:'100%',
-        
+        height:'20vh'
         }} id='resume'>
-            <h1>resume</h1>
+           
 
         </div>
     )
