@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.a9c91714.css",
-    "main.js": "/static/js/main.6cb176e3.js",
+    "main.js": "/static/js/main.fe22ab9a.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/My project.png": "/static/media/My project.7c591465b8e59f351a27.png",
     "static/media/SUGARcc.png": "/static/media/SUGARcc.7d167731366ca253fed3.png",
     "static/media/CATHERc.png": "/static/media/CATHERc.6fbadd6e6980d1a893f2.png",
     "static/media/imresizer-1680623388621.jpg": "/static/media/imresizer-1680623388621.6536816eaec02926a98e.jpg",
     "static/media/IKEAc.png": "/static/media/IKEAc.739e1cfaf59aaf510414.png",
+    "static/media/Screenshot (1238).png": "/static/media/Screenshot (1238).cd26bfc1d479678eae39.png",
     "static/media/Payal-Sahu-Resume.pdf": "/static/media/Payal-Sahu-Resume.693e4854366c17f4b3df.pdf",
     "static/media/express.png": "/static/media/express.44e99be40ced53a02362.png",
     "static/media/react.jpeg": "/static/media/react.bb15f26ee8c99e5e7e7d.jpeg",
@@ -17,11 +18,11 @@
     "static/media/npm.png": "/static/media/npm.5904c46fdce9a3192c3b.png",
     "index.html": "/index.html",
     "main.a9c91714.css.map": "/static/css/main.a9c91714.css.map",
-    "main.6cb176e3.js.map": "/static/js/main.6cb176e3.js.map",
+    "main.fe22ab9a.js.map": "/static/js/main.fe22ab9a.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a9c91714.css",
-    "static/js/main.6cb176e3.js"
+    "static/js/main.fe22ab9a.js"
   ]
 }
