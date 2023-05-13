@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.28e292c0.css",
-    "main.js": "/static/js/main.ef9987ca.js",
+    "main.css": "/static/css/main.1383c929.css",
+    "main.js": "/static/js/main.a359643b.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/My project.png": "/static/media/My project.7c591465b8e59f351a27.png",
+    "static/media/My project (1).png": "/static/media/My project (1).f3278a45bdf9357da37b.png",
     "static/media/SUGARcc.png": "/static/media/SUGARcc.7d167731366ca253fed3.png",
     "static/media/CATHERc.png": "/static/media/CATHERc.6fbadd6e6980d1a893f2.png",
-    "static/media/imresizer-1680623388621.jpg": "/static/media/imresizer-1680623388621.6536816eaec02926a98e.jpg",
     "static/media/IKEAc.png": "/static/media/IKEAc.739e1cfaf59aaf510414.png",
     "static/media/Screenshot (1238).png": "/static/media/Screenshot (1238).c8ac007098fd37aa9024.png",
     "static/media/Payal-Sahu-Resume.pdf": "/static/media/Payal-Sahu-Resume.693e4854366c17f4b3df.pdf",
@@ -17,12 +16,12 @@
     "static/media/MongoDB_logo_01.png": "/static/media/MongoDB_logo_01.7d8ed821bb5bbf048687.png",
     "static/media/npm.png": "/static/media/npm.5904c46fdce9a3192c3b.png",
     "index.html": "/index.html",
-    "main.28e292c0.css.map": "/static/css/main.28e292c0.css.map",
-    "main.ef9987ca.js.map": "/static/js/main.ef9987ca.js.map",
+    "main.1383c929.css.map": "/static/css/main.1383c929.css.map",
+    "main.a359643b.js.map": "/static/js/main.a359643b.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28e292c0.css",
-    "static/js/main.ef9987ca.js"
+    "static/css/main.1383c929.css",
+    "static/js/main.a359643b.js"
   ]
 }
