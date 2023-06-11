@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b3191cb5.css",
-    "main.js": "/static/js/main.52a6d590.js",
+    "main.js": "/static/js/main.75012493.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/My project (1).png": "/static/media/My project (1).f3278a45bdf9357da37b.png",
     "static/media/SUGARcc.png": "/static/media/SUGARcc.7d167731366ca253fed3.png",
@@ -9,8 +9,10 @@
     "static/media/IKEAc.png": "/static/media/IKEAc.739e1cfaf59aaf510414.png",
     "static/media/Screenshot (1238).png": "/static/media/Screenshot (1238).c8ac007098fd37aa9024.png",
     "static/media/Payal-Sahu-Resume.pdf": "/static/media/Payal-Sahu-Resume.b52e66978eac977aa315.pdf",
+    "static/media/cypresspngg.png": "/static/media/cypresspngg.c1c2ec8b825c51a436d4.png",
     "static/media/express.png": "/static/media/express.44e99be40ced53a02362.png",
     "static/media/rendercut.jpg": "/static/media/rendercut.144e69ddb414f9270a15.jpg",
+    "static/media/DSApng.png": "/static/media/DSApng.0735e9298636d7e0059d.png",
     "static/media/react.jpeg": "/static/media/react.bb15f26ee8c99e5e7e7d.jpeg",
     "static/media/OIP.jpeg": "/static/media/OIP.a6551c4c3b28413efc4d.jpeg",
     "static/media/typescript-1174965.png": "/static/media/typescript-1174965.8fe41361dff57e3f6c2e.png",
@@ -18,11 +20,11 @@
     "static/media/npm.png": "/static/media/npm.5904c46fdce9a3192c3b.png",
     "index.html": "/index.html",
     "main.b3191cb5.css.map": "/static/css/main.b3191cb5.css.map",
-    "main.52a6d590.js.map": "/static/js/main.52a6d590.js.map",
+    "main.75012493.js.map": "/static/js/main.75012493.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3191cb5.css",
-    "static/js/main.52a6d590.js"
+    "static/js/main.75012493.js"
   ]
 }
