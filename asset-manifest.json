@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec923270.css",
-    "main.js": "/static/js/main.740e063d.js",
+    "main.css": "/static/css/main.289a058b.css",
+    "main.js": "/static/js/main.cb970116.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/My project (1).png": "/static/media/My project (1).f3278a45bdf9357da37b.png",
+    "static/media/balanced bite.png": "/static/media/balanced bite.c1564816d7f637a1c0ac.png",
     "static/media/SUGARcc.png": "/static/media/SUGARcc.7d167731366ca253fed3.png",
     "static/media/CATHERc.png": "/static/media/CATHERc.6fbadd6e6980d1a893f2.png",
     "static/media/IKEAc.png": "/static/media/IKEAc.739e1cfaf59aaf510414.png",
@@ -19,12 +20,12 @@
     "static/media/MongoDB_logo_01.png": "/static/media/MongoDB_logo_01.7d8ed821bb5bbf048687.png",
     "static/media/npm.png": "/static/media/npm.5904c46fdce9a3192c3b.png",
     "index.html": "/index.html",
-    "main.ec923270.css.map": "/static/css/main.ec923270.css.map",
-    "main.740e063d.js.map": "/static/js/main.740e063d.js.map",
+    "main.289a058b.css.map": "/static/css/main.289a058b.css.map",
+    "main.cb970116.js.map": "/static/js/main.cb970116.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec923270.css",
-    "static/js/main.740e063d.js"
+    "static/css/main.289a058b.css",
+    "static/js/main.cb970116.js"
   ]
 }
