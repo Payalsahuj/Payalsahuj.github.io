@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.adc3aa04.css",
+    "main.css": "/static/css/main.52f4eafe.css",
     "main.js": "/static/js/main.36191372.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/My project (1).png": "/static/media/My project (1).f3278a45bdf9357da37b.png",
@@ -20,12 +20,12 @@
     "static/media/MongoDB_logo_01.png": "/static/media/MongoDB_logo_01.7d8ed821bb5bbf048687.png",
     "static/media/npm.png": "/static/media/npm.5904c46fdce9a3192c3b.png",
     "index.html": "/index.html",
-    "main.adc3aa04.css.map": "/static/css/main.adc3aa04.css.map",
+    "main.52f4eafe.css.map": "/static/css/main.52f4eafe.css.map",
     "main.36191372.js.map": "/static/js/main.36191372.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.adc3aa04.css",
+    "static/css/main.52f4eafe.css",
     "static/js/main.36191372.js"
   ]
 }
