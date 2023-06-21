@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b82880a.css",
-    "main.js": "/static/js/main.35ca97c2.js",
+    "main.css": "/static/css/main.487abdef.css",
+    "main.js": "/static/js/main.36191372.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/My project (1).png": "/static/media/My project (1).f3278a45bdf9357da37b.png",
     "static/media/balanced bitecut.png": "/static/media/balanced bitecut.9eab9274da8b92af4046.png",
@@ -20,12 +20,12 @@
     "static/media/MongoDB_logo_01.png": "/static/media/MongoDB_logo_01.7d8ed821bb5bbf048687.png",
     "static/media/npm.png": "/static/media/npm.5904c46fdce9a3192c3b.png",
     "index.html": "/index.html",
-    "main.7b82880a.css.map": "/static/css/main.7b82880a.css.map",
-    "main.35ca97c2.js.map": "/static/js/main.35ca97c2.js.map",
+    "main.487abdef.css.map": "/static/css/main.487abdef.css.map",
+    "main.36191372.js.map": "/static/js/main.36191372.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b82880a.css",
-    "static/js/main.35ca97c2.js"
+    "static/css/main.487abdef.css",
+    "static/js/main.36191372.js"
   ]
 }
