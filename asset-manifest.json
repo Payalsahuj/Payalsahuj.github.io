@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5bedd053.css",
-    "main.js": "/static/js/main.17aafaab.js",
+    "main.js": "/static/js/main.4c199e18.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/My project (1).png": "/static/media/My project (1).f3278a45bdf9357da37b.png",
     "static/media/balanced bitecut.png": "/static/media/balanced bitecut.9eab9274da8b92af4046.png",
@@ -11,8 +11,10 @@
     "static/media/Payal-Sahu-Resume.pdf": "/static/media/Payal-Sahu-Resume.e4143b9e82a4a56dd3d8.pdf",
     "static/media/digitron.png": "/static/media/digitron.d299c5ed33bfd9af6821.png",
     "static/media/cypresspngg.png": "/static/media/cypresspngg.c1c2ec8b825c51a436d4.png",
+    "static/media/caterpillar.png": "/static/media/caterpillar.566f848aac5b8d314cab.png",
     "static/media/express.png": "/static/media/express.44e99be40ced53a02362.png",
     "static/media/rendercut.jpg": "/static/media/rendercut.144e69ddb414f9270a15.jpg",
+    "static/media/alert.png": "/static/media/alert.35f6e16409924e24aad7.png",
     "static/media/ludo.webp": "/static/media/ludo.a5ea0132af1997256caf.webp",
     "static/media/todo.png": "/static/media/todo.9e6456e506c560485fac.png",
     "static/media/logo-react-js.png": "/static/media/logo-react-js.a26c6917330fdadde0d6.png",
@@ -24,11 +26,11 @@
     "static/media/npm.png": "/static/media/npm.5904c46fdce9a3192c3b.png",
     "index.html": "/index.html",
     "main.5bedd053.css.map": "/static/css/main.5bedd053.css.map",
-    "main.17aafaab.js.map": "/static/js/main.17aafaab.js.map",
+    "main.4c199e18.js.map": "/static/js/main.4c199e18.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5bedd053.css",
-    "static/js/main.17aafaab.js"
+    "static/js/main.4c199e18.js"
   ]
 }
