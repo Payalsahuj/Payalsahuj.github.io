@@ -127,18 +127,7 @@ function Skills() {
           BACKEND
         </button>
       </Flex>
-      <div
-        className="App"
-        data-aos="zoom-in-down"
-        data-aos-duration="2000"
-        data-aos-offset="100"
-        style={{ marginTop: "70px", marginBottom: "90px" }}
-      >
-        <header className="App-header">
-          <img src={winter} className="App-logo" alt="logo" />
-          <img src={data ? lightset : set} className="App-logo2" alt="" />
-        </header>
-      </div>
+
       {tech === "allimg" ? (
         <div
           data-aos="flip-left"
